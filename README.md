@@ -27,7 +27,8 @@ A simple Google Colab notebook for detecting cars in videos using YOLOv8 and Ope
    Run the cell that processes the video. The notebook will detect cars in each frame and save the annotated video as `hasil_deteksi.mp4`.
 
 6. **Download the Result**  
-   After processing, download the result video using the provided download link.
+   After processing, download the result video using the provided download link.  
+   👉 If you're viewing the video file in the GitHub repository, click the **"Download"** or **"View raw"** button at the top right to download the `.mp4` file.
 
 ## Requirements
 - Python 3.x
