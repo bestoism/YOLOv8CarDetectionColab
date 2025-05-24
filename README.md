@@ -8,11 +8,24 @@ A simple Google Colab notebook for detecting cars in videos using YOLOv8 and Ope
 - Uses YOLOv8 and OpenCV for detection and processing
 
 ## How to Use
-1. Open the notebook in Google Colab.
-2. Run all cells in order.
-3. Upload your video file when prompted (e.g., `car-video.mp4`).
-4. Wait for processing to finish.
-5. Download the annotated result video (`hasil_deteksi.mp4`).
+
+1. **Open the Notebook**  
+   Upload `Cardetection.ipynb` to [Google Colab](https://colab.research.google.com/) or open it from your Google Drive.
+
+2. **Install Dependencies**  
+   Run the first cell to install required libraries (`ultralytics`, `opencv-python-headless`, etc).
+
+3. **Load YOLOv8 Model**  
+   Run the cell that loads the YOLOv8 model.
+
+4. **Upload Your Video**  
+   Run the cell with `files.upload()` and select your video file (e.g., `car-video.mp4`).
+
+5. **Process the Video**  
+   Run the cell that processes the video. The notebook will detect cars in each frame and save the annotated video as `hasil_deteksi.mp4`.
+
+6. **Download the Result**  
+   After processing, download the result video using the provided download link.
 
 ## Requirements
 - Python 3.x
