@@ -2,6 +2,8 @@
 
 A simple Google Colab notebook for detecting cars in videos using YOLOv8 and OpenCV, with automatic video annotation and result export.
 
+🎥 [Watch Demo Video on YouTube](https://youtu.be/K6xsEng2PhU)
+
 ## Features
 - Upload your own video and detect cars frame by frame
 - Annotated video output is automatically saved and downloadable
